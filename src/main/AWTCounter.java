@@ -33,7 +33,7 @@ public class AWTCounter extends Frame {
 		BtnCountListener listener = new BtnCountListener();
 		btnCount.addActionListener(listener);
 		
-		setTitle("Example 1 AWT Counter");
+		setTitle("AWT Counter");
 		setSize(300, 100);
 		
 		setVisible(true);
